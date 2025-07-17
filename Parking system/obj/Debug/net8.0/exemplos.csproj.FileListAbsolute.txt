@@ -1,0 +1,28 @@
+/home/italo/Documentos/Boootcamps/XP/exemplos/bin/Debug/net8.0/exemplos
+/home/italo/Documentos/Boootcamps/XP/exemplos/bin/Debug/net8.0/exemplos.deps.json
+/home/italo/Documentos/Boootcamps/XP/exemplos/bin/Debug/net8.0/exemplos.runtimeconfig.json
+/home/italo/Documentos/Boootcamps/XP/exemplos/bin/Debug/net8.0/exemplos.dll
+/home/italo/Documentos/Boootcamps/XP/exemplos/bin/Debug/net8.0/exemplos.pdb
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/exemplos.GeneratedMSBuildEditorConfig.editorconfig
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/exemplos.AssemblyInfoInputs.cache
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/exemplos.AssemblyInfo.cs
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/exemplos.csproj.CoreCompileInputs.cache
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/exemplos.dll
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/refint/exemplos.dll
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/exemplos.pdb
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/exemplos.genruntimeconfig.cache
+/home/italo/Documentos/Boootcamps/XP/exemplos/obj/Debug/net8.0/ref/exemplos.dll
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/bin/Debug/net8.0/exemplos
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/bin/Debug/net8.0/exemplos.deps.json
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/bin/Debug/net8.0/exemplos.runtimeconfig.json
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/bin/Debug/net8.0/exemplos.dll
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/bin/Debug/net8.0/exemplos.pdb
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/exemplos.GeneratedMSBuildEditorConfig.editorconfig
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/exemplos.AssemblyInfoInputs.cache
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/exemplos.AssemblyInfo.cs
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/exemplos.csproj.CoreCompileInputs.cache
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/exemplos.dll
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/refint/exemplos.dll
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/exemplos.pdb
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/exemplos.genruntimeconfig.cache
+/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/Debug/net8.0/ref/exemplos.dll

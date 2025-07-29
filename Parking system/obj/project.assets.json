@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/exemplos.csproj",
+      "projectUniqueName": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/Parking system/exemplos.csproj",
       "projectName": "exemplos",
-      "projectPath": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/exemplos.csproj",
+      "projectPath": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/Parking system/exemplos.csproj",
       "packagesPath": "/home/italo/.nuget/packages/",
-      "outputPath": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/obj/",
+      "outputPath": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/Parking system/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [

@@ -13,10 +13,10 @@ namespace DesafioEstacionamento
 
             Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
                               "Digite o preço inicial:");
-            precoInicial = decimal.Parse(Console.ReadLine());
+            precoInicial = decimal.Parse(Console.ReadLine() ?? "0");
 
             Console.WriteLine("Agora digite o preço por hora:");
-            precoPorHora = decimal.Parse(Console.ReadLine());
+            precoPorHora = decimal.Parse(Console.ReadLine() ?? "0");
 
             Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
 
@@ -28,9 +28,10 @@ namespace DesafioEstacionamento
                 Console.Clear();
                 Console.WriteLine("Digite a sua opção:");
                 Console.WriteLine("1 - Cadastrar veículo");
-                Console.WriteLine("2 - Remover veículo");
+                Console.WriteLine("2 - Veículo saiu");
                 Console.WriteLine("3 - Listar veículos");
-                Console.WriteLine("4 - Encerrar");
+                Console.WriteLine("4 - Editar veículo");
+                Console.WriteLine("5 - Encerrar");
 
                 switch (Console.ReadLine())
                 {
@@ -47,6 +48,10 @@ namespace DesafioEstacionamento
                         break;
 
                     case "4":
+                        es.EditarVeiculo();
+                        break;
+
+                    case "5":
                         exibirMenu = false;
                         break;
 

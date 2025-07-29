@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/exemplos.csproj": {}
+    "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/exemplos.csproj": {}
   },
   "projects": {
-    "/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/exemplos.csproj": {
+    "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/exemplos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/exemplos.csproj",
+        "projectUniqueName": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/exemplos.csproj",
         "projectName": "exemplos",
-        "projectPath": "/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/exemplos.csproj",
+        "projectPath": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/exemplos.csproj",
         "packagesPath": "/home/italo/.nuget/packages/",
-        "outputPath": "/home/italo/Documentos/Boootcamps/XP/Desafios/Construindo um Sistema para um Estacionamento com C#/obj/",
+        "outputPath": "/home/italo/Documentos/Boootcamps/XP e GFT/Desafios/Parking system/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [

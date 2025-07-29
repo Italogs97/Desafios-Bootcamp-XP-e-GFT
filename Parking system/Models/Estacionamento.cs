@@ -1,23 +1,52 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
 namespace DesafioEstacionamento
 {
-    public class Estacionamento
+    public class Estacionamento : EstacionamentoBase
     {
-        private decimal precoInicial = 0;
-        private decimal precoPorHora = 0;
         private Dictionary<int, string> vagas = new Dictionary<int, string>();
         private int totalVagas = 10;
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
+            : base(precoInicial, precoPorHora)
         {
-            this.precoInicial = precoInicial;
-            this.precoPorHora = precoPorHora;
         }
 
-        public void AdicionarVeiculo()
+        private int LerNumeroVaga(string mensagem)
+        {
+            while (true)
+            {
+                Console.WriteLine(mensagem);
+                string vagaInput = Console.ReadLine() ?? string.Empty;
+                int numeroVaga;
+
+                if (!int.TryParse(vagaInput, out numeroVaga))
+                {
+                    Console.WriteLine("Número de vaga inválido. Por favor, digite um número inteiro.");
+                    continue;
+                }
+
+                return numeroVaga;
+            }
+        }
+
+        private int LerNumeroHoras(string mensagem)
+        {
+            while (true)
+            {
+                Console.WriteLine(mensagem);
+                string horasInput = Console.ReadLine() ?? string.Empty;
+                int horas;
+
+                if (!int.TryParse(horasInput, out horas))
+                {
+                    Console.WriteLine("Valor de horas inválido. Por favor, digite um número inteiro.");
+                    continue;
+                }
+
+                return horas;
+            }
+        }
+
+        public override void AdicionarVeiculo()
         {
             if (vagas.Count == totalVagas)
             {
@@ -30,11 +59,9 @@ namespace DesafioEstacionamento
 
             while (true)
             {
-                Console.WriteLine($"Digite o número da vaga (1 a {totalVagas}) para estacionar o veículo {placa}:");
-                string vagaInput = Console.ReadLine() ?? string.Empty;
-                int numeroVaga;
+                int numeroVaga = LerNumeroVaga($"Digite o número da vaga (1 a {totalVagas}) para estacionar o veículo {placa}:");
 
-                if (!int.TryParse(vagaInput, out numeroVaga) || numeroVaga < 1 || numeroVaga > totalVagas)
+                if (numeroVaga < 1 || numeroVaga > totalVagas)
                 {
                     Console.WriteLine("Número de vaga inválido. Por favor, digite um número entre 1 e " + totalVagas + ".");
                     continue;
@@ -53,19 +80,11 @@ namespace DesafioEstacionamento
             }
         }
 
-        public void RemoverVeiculo()
+        public override void RemoverVeiculo()
         {
             while (true)
             {
-                Console.WriteLine("Digite o número da vaga do veículo para remover (ou '0' para voltar ao menu):");
-                string vagaInput = Console.ReadLine() ?? string.Empty;
-                int numeroVaga;
-
-                if (!int.TryParse(vagaInput, out numeroVaga))
-                {
-                    Console.WriteLine("Número de vaga inválido. Por favor, digite um número inteiro.");
-                    continue;
-                }
+                int numeroVaga = LerNumeroVaga("Digite o número da vaga do veículo para remover (ou '0' para voltar ao menu):");
 
                 if (numeroVaga == 0)
                 {
@@ -76,15 +95,7 @@ namespace DesafioEstacionamento
                 if (vagas.ContainsKey(numeroVaga))
                 {
                     string placa = vagas[numeroVaga];
-                    Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
-                    string horasInput = Console.ReadLine();
-                    int horas = 0;
-
-                    if (!int.TryParse(horasInput, out horas))
-                    {
-                        Console.WriteLine("Valor de horas inválido. Por favor, digite um número inteiro.");
-                        continue; // Permite tentar novamente
-                    }
+                    int horas = LerNumeroHoras("Digite a quantidade de horas que o veículo permaneceu estacionado:");
 
                     decimal valorTotal = precoInicial + (precoPorHora * horas);
 
@@ -92,7 +103,7 @@ namespace DesafioEstacionamento
 
                     Console.WriteLine($"O veículo {placa} da vaga {numeroVaga} foi removido e o preço total foi de: R$ {valorTotal:F2}");
                     GerarRecibo(placa, valorTotal, horas);
-                    break; // Sai do loop após a remoção bem-sucedida
+                    break;
                 }
                 else
                 {
@@ -101,19 +112,11 @@ namespace DesafioEstacionamento
             }
         }
 
-        public void EditarVeiculo()
+        public override void EditarVeiculo()
         {
             while (true)
             {
-                Console.WriteLine("Digite o número da vaga do veículo que deseja editar (ou \'0\' para voltar ao menu):");
-                string vagaInput = Console.ReadLine() ?? string.Empty;
-                int numeroVaga;
-
-                if (!int.TryParse(vagaInput, out numeroVaga))
-                {
-                    Console.WriteLine("Número de vaga inválido. Por favor, digite um número inteiro.");
-                    continue;
-                }
+                int numeroVaga = LerNumeroVaga("Digite o número da vaga do veículo que deseja editar (ou '0' para voltar ao menu):");
 
                 if (numeroVaga == 0)
                 {
@@ -129,16 +132,16 @@ namespace DesafioEstacionamento
 
                     vagas[numeroVaga] = placaNova;
                     Console.WriteLine($"Placa do veículo na vaga {numeroVaga} alterada de {placaAntiga} para {placaNova} com sucesso!");
-                    break; // Sai do loop após a edição bem-sucedida
+                    break;
                 }
                 else
                 {
-                    Console.WriteLine("Desculpe, a vaga informada não está ocupada. Confira se digitou o número corretamente ou digite \'0\' para voltar ao menu.");
+                    Console.WriteLine("Desculpe, a vaga informada não está ocupada. Confira se digitou o número corretamente ou digite '0' para voltar ao menu.");
                 }
             }
         }
 
-        public void ListarVeiculos()
+        public override void ListarVeiculos()
         {
             if (vagas.Any())
             {
@@ -165,4 +168,3 @@ namespace DesafioEstacionamento
         }
     }
 }
-

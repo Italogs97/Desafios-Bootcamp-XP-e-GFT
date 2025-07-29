@@ -18,7 +18,8 @@ namespace DesafioEstacionamento
             Console.WriteLine("Agora digite o preço por hora:");
             precoPorHora = decimal.Parse(Console.ReadLine() ?? "0");
 
-            Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
+            // Instanciação via abstração
+            EstacionamentoBase es = new Estacionamento(precoInicial, precoPorHora);
 
             string opcao = string.Empty;
             bool exibirMenu = true;
@@ -68,5 +69,3 @@ namespace DesafioEstacionamento
         }
     }
 }
-
-

@@ -1,0 +1,15 @@
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/bin/Debug/net8.0/HotelHostingSystem
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/bin/Debug/net8.0/HotelHostingSystem.deps.json
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/bin/Debug/net8.0/HotelHostingSystem.runtimeconfig.json
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/bin/Debug/net8.0/HotelHostingSystem.dll
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/bin/Debug/net8.0/HotelHostingSystem.pdb
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.AssemblyInfoInputs.cache
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.AssemblyInfo.cs
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.csproj.CoreCompileInputs.cache
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.sourcelink.json
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.dll
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/refint/HotelHostingSystem.dll
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.pdb
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/HotelHostingSystem.genruntimeconfig.cache
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/HotelHostingSystem/obj/Debug/net8.0/ref/HotelHostingSystem.dll

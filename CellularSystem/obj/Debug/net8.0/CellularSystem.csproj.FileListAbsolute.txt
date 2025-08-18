@@ -1,0 +1,15 @@
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/bin/Debug/net8.0/CellularSystem
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/bin/Debug/net8.0/CellularSystem.deps.json
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/bin/Debug/net8.0/CellularSystem.runtimeconfig.json
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/bin/Debug/net8.0/CellularSystem.dll
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/bin/Debug/net8.0/CellularSystem.pdb
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.AssemblyInfoInputs.cache
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.AssemblyInfo.cs
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.csproj.CoreCompileInputs.cache
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.sourcelink.json
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.dll
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/refint/CellularSystem.dll
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.pdb
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/CellularSystem.genruntimeconfig.cache
+/home/italo/Documentos/Boootcamps/XP e GFT/Desafios-Bootcamp-XP-e-GFT/CellularSystem/obj/Debug/net8.0/ref/CellularSystem.dll
